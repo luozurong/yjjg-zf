@@ -1,0 +1,51 @@
+.containner{
+    background: #fff;
+}
+.logoPic img{
+    width: 2.45rem;
+    display: block;
+    padding-top: 1.2rem;
+    margin: 0 auto 0.4rem;
+}
+.loginItem{
+    height: 0.44rem;
+    display: flex;
+    display: -webkit-flex;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    margin: 0.1rem 0.3rem;
+}
+.loginItem img{
+    width: 0.15rem;
+    margin-right: 0.12rem;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+.loginItem input{
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+    font-size: 0.16rem;
+    line-height: 0.22rem;
+    color: #222;
+    outline: none;
+    border: none;
+}
+.loginSubmit {
+    margin: 0.3rem 0.3rem 0;
+    line-height: 0.36rem;
+    background: #3081f2;
+    border-radius: 0.08rem;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #fff;
+}
+.outLoginClass{
+    position: fixed;
+    bottom: 0.58rem;
+    right: 0.15rem;
+    z-index: 1;
+}
+.outLoginClass img{
+    width: 0.5rem;
+    height: 0.5rem;
+}

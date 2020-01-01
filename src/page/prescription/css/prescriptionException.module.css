@@ -1,0 +1,237 @@
+.tab{
+    display: flex;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.tab div{
+    width: 33.333%;
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+.tab div.active span{
+    display: block;
+    color: #3686ff;
+}
+.tab div.active i{
+    display: block;
+    width: 0.24rem;
+    height: 0.02rem;
+    margin: 0 auto;
+    background: #3686ff;
+}
+.exceptionTop{
+    height: 0.5rem;
+}
+.exceptionContainer{
+    background: #fff;
+    padding: 0 0.14rem;
+}
+.exceptionItem{
+    color: #222;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding-top: 0.15rem;
+    padding-bottom: 0.14rem;
+    border-bottom: 1px solid #eee
+}
+.exceptionWrap .exceptionContainer:last-child .exceptionItem{
+    border:none;
+}
+.exceptionItem>div {
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+}
+.exceptionItem>img {
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    width: 0.07rem;
+    height: 0.12rem;
+}
+.exceptionItem div div{
+    display: flex;
+    display: -webkit-flex;
+}
+.exceptionItem div div span:first-child {
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+.exceptionItem div div span:last-child {
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+}
+.exceptionItem div div span {
+    display: inline-block;
+    line-height: 0.23rem;
+}
+.exceptionItem>img{
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    width: 0.07rem;
+    height: 0.12rem;
+}
+.exceptionItemNum{
+    color: #ff3636
+}
+.exceptionFixed,.exceptionWechatFixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    padding: 0.06rem 0;
+    background: #fff;
+    font-size: 0.16rem;
+}
+.exceptionFixed div span,.exceptionWechatFixed div span{
+    font-size: 0.16rem;
+}
+.exceptionFixed div{
+    background: #3081f2;
+    width: 44.08%;
+    height: 0.36rem;
+    margin-left:0.15rem;
+    border-radius: 0.06rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    color: #fff;
+}
+.exceptionWechatFixed div{
+    background: #3081f2;
+    width: 92%;
+    height: 0.36rem;
+    margin-left:0.15rem;
+    border-radius: 0.06rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    color: #fff;
+}
+.exceptionFixed div img,.exceptionWechatFixed div img{
+    width: 0.16rem;
+    height: 0.16rem;
+    margin-right: 0.08rem;
+}
+.exceptionItemChu{
+    text-align: right;
+    padding: 0 0.2rem 0 0;
+    color: #3081f2
+}
+.exceptionItemChu span{
+    border: 1px solid #3081f2;
+    padding: 0 0.1rem;
+    border-radius: 0.03rem;
+}
+.exceptionsearchfixedbg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0,0,0,0.1);
+    z-index: 3;
+}
+.exceptionsearchfixed{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background: #f8f8f8
+}
+.exceptionsearch {
+    display: -webkit-box;
+    display: flex;
+    display: -webkit-fixed;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #fff;
+    padding: 0.1rem 0;
+}
+.exceptionsearch input{
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+    margin-left: 0.15rem;
+    height: 0.36rem;
+    background: #f0f0f0;
+    border-radius: 0.08rem;
+    outline: none;
+    border: none;
+    padding-left: 0.1rem;
+}
+.exceptionsearch span{
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    color: #3081f2;
+    padding: 0 0.1rem;
+}
+.exceptionsearchwrap{
+    padding: 0 0.15rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    max-height: 3.5rem;
+    overflow-y: auto;
+}
+ .exceptionsearchwrapitem{
+   display: flex;
+   display: -webkit-flex;
+   align-items: center;
+   -webkit-align-items: center
+}
+.exceptionsearchwrapitem{
+    background: #fff;
+    padding: 0.06rem 0 0.1rem;
+    border-bottom: 1px solid #eee;
+}
+.exceptionsearchwrapitem>div{
+    flex-grow: 2;
+    -webkit-flex-grow: 2;  
+}
+.exceptionsearchwrapitem>img{
+    flex-shrink: 0; 
+    -webkit-flex-shrink: 0; 
+}
+.exceptionsearchname{
+    font-weight: 600;
+    color: #000;
+}
+.exceptionsearchaddr{
+    color: #666666;
+    margin-top: 0.05rem;
+}
+.exceptionsearchpic{
+    width: 0.07rem;
+    height: 0.12rem;
+}
+.exceptionsearchcanncel{
+    line-height: 0.4rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.16rem;
+}
+.druHeight{
+    height: 0.48rem;
+}
+.searchMore{
+    text-align: center;
+    padding-top: 0.1rem;
+    color: #999;
+}

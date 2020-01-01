@@ -1,0 +1,67 @@
+.container{
+    padding: 0.08rem 0.15rem 0.1rem 0.15rem;
+    background: #fff;
+}
+.container>div{
+    display: flex;
+    display: -webkit-flex;
+}
+.container>div span:first-child{
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+.container>div span:last-child{
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+}
+.itemBg{
+    background: #fff;
+}
+.item{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    background: #fff;
+    margin-left: 0.15rem;
+    border-bottom: 1px solid #eee;
+}
+.itemMain{
+    background: #fff;
+}
+.item:last-child{
+    border-bottom: none; 
+}
+.pic{
+    display: block;
+    width: 0.07rem;
+    height: 0.12rem;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    margin-right: 0.15rem;
+}
+.messageItem{
+    margin: 0.13rem 0;
+    flex-grow: 2; 
+    -webkit-flex-grow: 2; 
+}
+.messageLine{
+    display: flex;
+    display: -webkit-flex;
+    line-height: 0.18rem;
+}
+.messageLine>span{
+    display: inline-block;
+    width: 0.7rem;
+    text-align: right;
+}
+.messageLineNum{
+    margin-left:0.18rem;
+}
+.calenderFixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
